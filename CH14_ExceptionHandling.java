@@ -54,7 +54,7 @@ class NegativeRadiusException extends Exception{
     }
 }
 
-public class ExceptionHandling {
+public class CH14_ExceptionHandling {
     // throws keyword is used to tell users that the method may throw an exception.
     public static double area(int r) throws NegativeRadiusException {
         if (r < 0){

@@ -1,6 +1,9 @@
 /*
 Access Modifiers: Used to define the accessibility of any property or method.
 Constructor: A block of code which runs automatically when the Object of that class is created.
+    Types:
+        1. Default Constructor: The constructor which doesn't have any parameters.
+        2. Parameterized Constructor: The constructor which has parameters.
  */
 class Employee2{
     private int id;
@@ -28,7 +31,11 @@ class Programmer{
     String name;
     String language;
 
-    public Programmer(int id, String name, String language){
+    public Programmer(){    // Default Constructor
+        System.out.println("This is default Constructor");
+    }
+
+    public Programmer(int id, String name, String language){    // Parameterized Constructor
         this.id = id;
         this.name = name;
         this.language = language;
