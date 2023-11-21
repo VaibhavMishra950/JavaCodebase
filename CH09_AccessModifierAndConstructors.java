@@ -41,7 +41,6 @@ class Programmer{
         this.language = language;
     }
 
-
 }
 
 public class CH09_AccessModifierAndConstructors {
