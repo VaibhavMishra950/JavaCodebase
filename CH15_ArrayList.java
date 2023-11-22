@@ -2,6 +2,13 @@ import java.util.ArrayList;
 
 public class CH15_ArrayList {
     public static void main(String[] args) {
+        /*
+         <Integer>, here, comes from Generics. It is used to tell the compiler that we are going to
+         create an ArrayList which will store only Integer values.
+         It helps in reducing the bugs and facilitates better type-checking.
+         We can't use primitive data types here, we have to use the Class name, hence, ArrayList<int>
+         will produce an error.
+        */
         ArrayList<Integer> l1 = new ArrayList<>();
         ArrayList<Integer> l2  =new ArrayList<>(5);
         l2.add(9898);
