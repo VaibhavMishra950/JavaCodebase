@@ -20,7 +20,7 @@ public class CH04_ControlStructures {
             System.out.println("What the hell bro, you are dead!!");
         }
         else{
-            System.out.println("You can Vote.");
+            System.out.println("You can Vote BJP.");
         }
 
         // SWITCH STATEMENTS
