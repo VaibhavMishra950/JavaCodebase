@@ -12,11 +12,11 @@ Access Modifiers: Used to determine who can access any property or method of any
                   Can be public, protected, no modifier, or private.
 Access Table:
      Modifier        | Class | Package | Sub-Class | World
-    -------------------------------------------------------
-     Public          |   Y   |    Y    |     Y     |   Y
-     Default (None)  |   Y   |    Y    |     Y     |   N
-     Private         |   Y   |    Y    |     N     |   N
-     Protected       |   Y   |    N    |     N     |   N
+    --------------------------------------------------------
+     Public          |   Y   |    Y    |     Y     |   Y   |
+     Protected       |   Y   |    Y    |     Y     |   N   |
+     Default (None)  |   Y   |    Y    |     N     |   N   |
+     Private         |   Y   |    N    |     N     |   N   |
  */
 
 class C1{
